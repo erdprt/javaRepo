@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:property-placeholder location="classpath:spring-config.properties" />
+
+	<bean id="directoryFactory" class="erdprt.personal.samples.spring.utils.DirectoryFactory" >
+		<property name="outputDir" value="${output.dir}" />
+	</bean>
+	
+	<bean id="createDirectory" 
+			factory-bean="directoryFactory" 
+			factory-method="createDirectory"/>
+
+
+	<bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+		<property name="brokerURL" value="${jms.default.brokerurl}" />
+	</bean>
+
+	<bean id="defaultQueue" class="org.apache.activemq.command.ActiveMQQueue">
+		<constructor-arg value="${jms.defaultQueue}" />
+	</bean>
+
+    <bean id="destinationSender" class="erdprt.personal.samples.spring.destination.senders.DestinationSender" scope="prototype">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="defaultQueue"/>
+    </bean>
+	
+	<bean id="messageListener1" class="erdprt.personal.samples.spring.destination.listeners.DefaultMessageListener"  destroy-method="flush">
+			<property name="name" value="listener1"></property>
+			<property name="outputDir" ref="createDirectory"></property>
+	</bean>
+	
+	<bean id="destinationListener1" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="destination" ref="defaultQueue" />
+		<property name="messageListener" ref="messageListener1" />
+		<property name="concurrentConsumers" value="1"/>
+	</bean>	
+
+	<bean id="messageListener2" class="erdprt.personal.samples.spring.destination.listeners.DefaultMessageListener"  destroy-method="flush">
+			<property name="name" value="listener2"></property>
+			<property name="outputDir" ref="createDirectory"></property>
+	</bean>
+	
+	<bean id="destinationListener2" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="destination" ref="defaultQueue" />
+		<property name="messageListener" ref="messageListener2" />
+		<property name="concurrentConsumers" value="1"/>
+	</bean>
+	
+	<bean id="messageListener3" class="erdprt.personal.samples.spring.destination.listeners.DefaultMessageListener"  destroy-method="flush">
+		<property name="name" value="listener3"></property>
+		<property name="outputDir" ref="createDirectory"></property>
+	</bean>
+	
+	<bean id="destinationListener3" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="destination" ref="defaultQueue" />
+		<property name="messageListener" ref="messageListener3" />
+		<property name="concurrentConsumers" value="1"/>
+	</bean>	
+		
+</beans>

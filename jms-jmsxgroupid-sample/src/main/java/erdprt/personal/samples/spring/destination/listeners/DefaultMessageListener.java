@@ -1,16 +1,8 @@
 package erdprt.personal.samples.spring.destination.listeners;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Enumeration;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
@@ -20,7 +12,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import erdprt.personal.samples.spring.audit.Record;
-import erdprt.personal.samples.spring.audit.RecordFormater;
+import erdprt.personal.samples.spring.audit.RecordManager;
+import erdprt.personal.samples.spring.audit.RecordManagerWriter;
 
 public class DefaultMessageListener implements MessageListener {
 
@@ -29,6 +22,7 @@ public class DefaultMessageListener implements MessageListener {
 	private String name		=	"none";
 	private String url		=	"none";
 	private String outputDir;
+	private RecordManager recordManager;
 	
 	private List<Record> records	=	new ArrayList<>();
 	
@@ -44,6 +38,7 @@ public class DefaultMessageListener implements MessageListener {
 																message.getStringProperty("JMSXGroupID"),
 																Calendar.getInstance().getTime());
 					this.records.add(record);
+					getRecordManager().add(record);
 				}
 			}
 		} catch (JMSException e) {
@@ -55,29 +50,7 @@ public class DefaultMessageListener implements MessageListener {
 	public void flush() {
 		logger.debug("flush records");
 		
-		String filename			=	getName() + ".txt";
-		File file				=	new File(getOutputDir(), filename );
-		BufferedWriter writer	=	null;
-		
-		try {
-		    writer = new BufferedWriter(new FileWriter(file));
-		    
-		    for (Record record: records) {
-		    	String line	=	new RecordFormater().format(record);
-		    	writer.write(line);
-		    }
-		    
-		} catch (Exception e) {
-			logger.error("", e);
-		} finally {
-			try {
-				if (writer!=null) {
-					writer.close();
-				}
-			} catch (IOException ioe) {
-				logger.warn("Problem when closing audit file:", ioe);
-			}
-		}
+		new RecordManagerWriter().flush(getName(), getOutputDir(), this.records);
 	}
 	
 	public String getOutputDir() {
@@ -106,6 +79,17 @@ public class DefaultMessageListener implements MessageListener {
 	
 	public String getId() {
 		return "(" + getName() + "," + getUrl() + ")";
-	} 	
+	}
+
+	public RecordManager getRecordManager() {
+		return recordManager;
+	}
+
+	public void setRecordManager(RecordManager recordManager) {
+		this.recordManager = recordManager;
+	}
+
+	
+	
 
 }

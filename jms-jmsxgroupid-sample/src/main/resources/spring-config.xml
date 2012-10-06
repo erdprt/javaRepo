@@ -11,6 +11,11 @@
 	<bean id="directoryFactory" class="erdprt.personal.samples.spring.utils.DirectoryFactory" >
 		<property name="outputDir" value="${output.dir}" />
 	</bean>
+
+	<bean id="recordManager" class="erdprt.personal.samples.spring.audit.RecordManager" destroy-method="flush">
+		<property name="outputDir" ref="createDirectory"></property>
+		<property name="name" value="synthesis" />
+	</bean>
 	
 	<bean id="createDirectory" 
 			factory-bean="directoryFactory" 
@@ -33,6 +38,7 @@
 	<bean id="messageListener1" class="erdprt.personal.samples.spring.destination.listeners.DefaultMessageListener"  destroy-method="flush">
 			<property name="name" value="listener1"></property>
 			<property name="outputDir" ref="createDirectory"></property>
+			<property name="recordManager" ref="recordManager" />			
 	</bean>
 	
 	<bean id="destinationListener1" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
@@ -45,6 +51,7 @@
 	<bean id="messageListener2" class="erdprt.personal.samples.spring.destination.listeners.DefaultMessageListener"  destroy-method="flush">
 			<property name="name" value="listener2"></property>
 			<property name="outputDir" ref="createDirectory"></property>
+			<property name="recordManager" ref="recordManager" />			
 	</bean>
 	
 	<bean id="destinationListener2" class="org.springframework.jms.listener.SimpleMessageListenerContainer">
@@ -57,6 +64,7 @@
 	<bean id="messageListener3" class="erdprt.personal.samples.spring.destination.listeners.DefaultMessageListener"  destroy-method="flush">
 		<property name="name" value="listener3"></property>
 		<property name="outputDir" ref="createDirectory"></property>
+		<property name="recordManager" ref="recordManager" />		
 	</bean>
 	
 	<bean id="destinationListener3" class="org.springframework.jms.listener.SimpleMessageListenerContainer">

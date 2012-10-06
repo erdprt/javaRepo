@@ -12,10 +12,9 @@ public class RecordFormater {
 
 		writer.append("date : ");
 		writer.append(dateFormat.format(record.getDate()));
-		writer.append("header : ");
+		writer.append(";header : ");
 		writer.append(pad(record.getHeader(), 20));
-    	writer.append(";");
-		writer.append("content : " + record.getContent());
+		writer.append(";content : " + record.getContent());
     	writer.append(lineSeparator);
     	
     	return writer.toString();

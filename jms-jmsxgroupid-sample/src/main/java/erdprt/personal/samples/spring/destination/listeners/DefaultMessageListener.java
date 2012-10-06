@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
@@ -39,10 +40,10 @@ public class DefaultMessageListener implements MessageListener {
 			if (message!=null) {
 				if (message instanceof TextMessage) {
 					String messageContent		=	((TextMessage)message).getText();
-					Record record				=	new Record(messageContent, message.getStringProperty("JMSXGroupID"));
+					Record record				=	new Record(messageContent, 
+																message.getStringProperty("JMSXGroupID"),
+																Calendar.getInstance().getTime());
 					this.records.add(record);
-					//Map<String, Object> headers	=	create(message);
-					//show(messageContent, headers);
 				}
 			}
 		} catch (JMSException e) {
@@ -51,31 +52,6 @@ public class DefaultMessageListener implements MessageListener {
 		}
 	}
 	
-	private void show(String messageContent, Map<String, Object> headers) {
-		logger.info("content for " + getName() + ":" + messageContent);
-		
-	}
-
-	private Map<String, Object> create(Message message) throws JMSException {
-		Map<String, Object> map	=	new HashMap<String, Object>();
-		for (Enumeration<Object> enumeration = message.getPropertyNames();enumeration.hasMoreElements();) {
-			String propertyName	=	(String)enumeration.nextElement();
-			map.put(propertyName, message.getStringProperty(propertyName));
-		}
-		map.put("JMSCorrelationID", message.getJMSCorrelationID());
-		map.put("JMSDeliveryMode", message.getJMSDeliveryMode());
-		map.put("JMSDestination", message.getJMSDestination());
-		map.put("JMSExpiration", message.getJMSExpiration());
-		map.put("JMSMessageID", message.getJMSMessageID());
-		map.put("JMSPriority", message.getJMSPriority());
-		map.put("JMSRedelivered", message.getJMSRedelivered());
-		map.put("JMSReplyTo", message.getJMSReplyTo());
-		map.put("JMSTimestamp", message.getJMSTimestamp());
-		map.put("JMSType", message.getJMSType());
-		
-		return map;
-	}
-
 	public void flush() {
 		logger.debug("flush records");
 		

@@ -1,12 +1,17 @@
 package erdprt.personal.samples.spring.audit;
 
+import java.text.SimpleDateFormat;
+
 public class RecordFormater {
 
-	private static String lineSeparator	=	System.getProperty("line.separator");
+	private static String lineSeparator					=	System.getProperty("line.separator");
+	private static final SimpleDateFormat dateFormat 	=	new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSXXX");
 	
 	public String format(Record record) {
 		StringBuilder writer	=	new StringBuilder();
-		
+
+		writer.append("date : ");
+		writer.append(dateFormat.format(record.getDate()));
 		writer.append("header : ");
 		writer.append(pad(record.getHeader(), 20));
     	writer.append(";");

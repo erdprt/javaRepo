@@ -18,6 +18,8 @@ import erdprt.personal.samples.spring.threads.RunnableDestinationSender;
 public class HeaderTest {
 	
 	private static final Logger logger	=	LoggerFactory.getLogger(HeaderTest.class);
+	
+	private static final Integer COUNT	=	60;
 
 	private ConfigurableApplicationContext context;
 	
@@ -62,9 +64,8 @@ public class HeaderTest {
 
 	@Test
 	public void testWithMultipleHeaderValue() {
-		Integer count	=	60;
 		
-		for (Integer index=0;index<count;index++) {
+		for (Integer index=0;index<COUNT;index++) {
 			DestinationSender sender	=	this.context.getBean("destinationSender", DestinationSender.class);
 			String content					=	"content message " + index;
 			
@@ -77,9 +78,8 @@ public class HeaderTest {
 
 	@Test
 	public void testMultiThreadedWithMultipleHeaderValue() {
-		Integer count	=	60;
 		
-		for (Integer index=0;index<count;index++) {
+		for (Integer index=0;index<COUNT;index++) {
 			DestinationSender sender	=	this.context.getBean("destinationSender", DestinationSender.class);
 			
 			Runnable runnable	=	new RunnableDestinationSender(sender, index);
@@ -88,9 +88,8 @@ public class HeaderTest {
 	}
 	
 	public void proceed(Map<String, String> headers) {
-		Integer count	=	60;
 		
-		for (Integer index=0;index<count;index++) {
+		for (Integer index=0;index<COUNT;index++) {
 			DestinationSender sender	=	this.context.getBean("destinationSender", DestinationSender.class);
 			String content					=	"content message " + index;
 			sender.simpleSend(content, headers);

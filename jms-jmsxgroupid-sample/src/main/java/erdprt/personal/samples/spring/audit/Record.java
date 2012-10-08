@@ -7,8 +7,9 @@ public class Record {
 	private String content;
 	private String header;
 	private Date date;
+	private String threadId;
 	
-	public Record(String content, String header, Date date) {
+	public Record(String content, String header, Date date, String threadId) {
 		super();
 		this.content 	= content;
 		this.header 	= header;
@@ -32,5 +33,12 @@ public class Record {
 	public void setDate(Date date) {
 		this.date = date;
 	}
+	public String getThreadId() {
+		return threadId;
+	}
+	public void setThreadId(String threadId) {
+		this.threadId = threadId;
+	}
+	
 	
 }

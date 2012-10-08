@@ -1,0 +1,1 @@
+DROP SCHEMA sample1 CASCADE;

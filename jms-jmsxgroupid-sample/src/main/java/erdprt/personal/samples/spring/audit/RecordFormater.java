@@ -12,6 +12,8 @@ public class RecordFormater {
 
 		writer.append("date : ");
 		writer.append(dateFormat.format(record.getDate()));
+		writer.append(";threadId : ");
+		writer.append(pad(record.getThreadId(), 10));
 		writer.append(";header : ");
 		writer.append(pad(record.getHeader(), 20));
 		writer.append(";content : " + record.getContent());

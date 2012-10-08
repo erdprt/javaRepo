@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS bas_samples;
+DROP TABLESPACE IF EXISTS tbl_samples;
+DROP ROLE IF EXISTS user_samples;

@@ -1,0 +1,1001 @@
+customer_id;title;fname;lname;addressline;town;zipcode;phone
+1;Mme;Morel;Natalie;River Street;PISCATAWAY;732;9675640
+2;M.;Dubois;George;Mill Street;HARTVILLE;307;0933695
+3;Mme;Vincent;Jacqueline;Poplar Street;GREENBUSH;920;4405450
+4;Mme;Dubois;Monique;Lincoln Street;STAPLES;218;4128029
+5;Mme;Bernard;Annie;Spring Street;SILVERADO;714;2574983
+6;M.;Lefebvre;Nicolas;Cedar Street;CHATHAM;610;2912729
+7;Mme;Simon;Anne;Park Street;EDNA;316;2446105
+8;Mme;Thomas;Jeanne;Ash Street;HATFIELD;413;6819834
+9;Mme;Martin;Genevieve;Meadow Street;POMERENE;520;7912422
+10;Mme;Laurent;Corinne;North Street;SPADE;806;9278638
+11;Mme;Fournier;Jeanne;4th Street;BOOTHVILLE;504;5279470
+12;Mme;André;Catherine;5th Street;NORTH ANDOVER;978;9199273
+13;Mme;Durand;Emilie;Sunset Street;KENT;541;5582377
+14;Mme;Mercier;Andree;3rd Street;CALION;870;6372933
+15;M.;Martin;Marcel;Third Street;HARVEY;501;4586267
+16;M.;Martin;Paul;Second Street;PIERCEFIELD;518;3280469
+17;M.;Martin;Robert;Center Street;TYLERTOWN;601;3281906
+18;Mme;Durand;Paulette;Railroad Street;NEW UNDERWOOD;605;1011731
+19;M.;Martin;Vincent;Railroad Street;GLADBROOK;515;8092470
+20;Mme;Martin;Margeuerite;2nd Street;LOUISBURG;919;3678840
+21;M.;Dubois;Marcel;8th Street;CERRILLOS;505;3822155
+22;Mme;Fournier;Odette;Hill Street;FERRYSBURG;616;2512984
+23;Mme;Lefèvre;Marie;Cherry Street;DANVILLE;804;3433450
+24;M.;Dubois;Olivier;4th Street;BRIGHTON;618;7801538
+25;Mme;Richard;Cecile;Maple Street;NOBLESVILLE;317;3893124
+26;M.;André;Rene;Pine Street;MOSCOW;517;5211130
+27;Mme;Simon;Corinne;Second Street;AVAWAM;606;7309395
+28;M.;Petit;Franck;3rd Street;RAMEY;814;5707764
+29;Mme;Laurent;Julie;First Street;KELLOGG;507;2988627
+30;M.;Fournier;Michel;Oak Street;SHINGLETOWN;530;4968924
+31;Mme;Thomas;Caroline;Jefferson Street;WEST DANVILLE;802;2658778
+32;M.;Bertrand;Paul;Taylor Street;MOON;804;6264177
+33;M.;Thomas;Alexandre;3rd Street;TANEYVILLE;417;9793613
+34;M.;André;David;Oak Street;MATADOR;806;9017862
+35;Mme;Lefebvre;Jacqueline;Lake Street;WEST VAN LEAR;606;2466835
+36;Mme;Vincent;Audrey;Pine Street;WESTBROOKVILLE;914;3337420
+37;M.;Leroy;Nicolas;View Street;SYCAMORE;724;3756326
+38;Mme;Durand;Paulette;3rd Street;LEESVILLE;803;8656161
+39;M.;Petit;Vincent;Willow Street;ENNING;605;2080121
+40;M.;David;Christian;West Street;CYGNET;419;8703573
+41;M.;Simon;Joseph;Chestnut Street;STILLWATER;651;8934818
+42;Mme;Dubois;Catherine;Second Street;GREENFORD;330;3927067
+43;M.;Durand;Daniel;Church Street;PAWNEE;918;3482217
+44;M.;Martin;Daniel;Walnut Street;BENSALEM;215;5413075
+45;M.;Robert;Pascal;Fifth Street;MT BALDY;909;8389560
+46;Mme;Dubois;Audrey;3rd Street;BINGEN;509;6721265
+47;M.;Durand;Jean;Hickory Street;HOPATCONG;973;8090958
+48;M.;Robert;Philippe;Locust Street;STAR CITY;870;2926952
+49;Mme;Laurent;Florence;Locust Street;BUCHANAN;701;5543879
+50;M.;Michel;Bernard;Hickory Street;WATERS;517;0491515
+51;Mme;Michel;Nicole;Hillcrest Street;MYERSVILLE;301;3300699
+52;Mme;Lefebvre;Cecile;Lake Street;SUNSHINE;225;8991568
+53;Mme;Girard;Claudine;Williams Street;EASTPOINT;850;4044790
+54;M.;Moreau;Pascal;11th Street;IONIA;660;9233334
+55;M.;Martin;Thierry;Lakeview Street;HIGH ROLLS MOUNTAIN PARK;505;4918349
+56;Mme;Girard;Audrey;Center Street;DRISCOLL;512;6706257
+57;M.;Robert;Guillaume;Oak Street;RUBY;540;0062760
+58;Mme;Lefebvre;Annie;Willow Street;MOUNT VERNON;812;3096635
+59;M.;Roux;Henri;Jackson Street;AMADO;520;5441240
+60;M.;Garcia;Guy;2nd Street;BETHANY;660;9181751
+61;M.;Durand;Henri;Lake Street;FESSENDEN;701;9114555
+62;Mme;Garcia;Elodie;3rd Street;RIO VERDE;602;0918422
+63;M.;Richard;Michel;Jefferson Street;VAN BUREN POINT;716;3535677
+64;Mme;Garcia;Claire;Spruce Street;RANDSBURG;760;2718079
+65;Mme;Bernard;Dominique;Birch Street;EKALAKA;406;5683806
+66;M.;Laurent;Christophe;1st Street;CHAUTAUQUA;716;3542594
+67;Mme;Robert;Laurence;Hill Street;BARTLEY;304;4702442
+68;Mme;Morel;Christine;8th Street;EAST NORTHPORT;516;8306407
+69;M.;Morel;Joseph;8th Street;KELLOGG;208;8838300
+70;M.;Dubois;Julien;Third Street;SWAMPSCOTT;781;8585525
+71;Mme;Dubois;Christelle;Mill Street;STAFFORD;316;4489605
+72;M.;Martin;Eric;View Street;CUBA;937;7821747
+73;M.;Bertrand;Daniel;Second Street;HALLECK;702;6319278
+74;M.;Morel;Franck;Cherry Street;RADIANT;540;9881641
+75;Mme;Martin;Florence;Laurel Street;EVANS CITY;724;1800159
+76;M.;Durand;Roger;Railroad Street;WEST TISBURY;508;1364343
+77;M.;Dubois;Francois;Lee Street;ARNOLD;906;9514105
+78;Mme;Dubois;Christine;First Street;SPIRITWOOD;701;8815630
+79;M.;Dubois;Maurice;West Street;MUNDS PARK;520;3857977
+80;M.;Leroy;Jean-Pierre;Cherry Street;NORTH EASTON;508;9780473
+81;Mme;David;Audrey;Hillcrest Street;WENTWORTH;336;5996893
+82;M.;Richard;Thierry;Sycamore Street;MANILLA;765;9198401
+83;Mme;Laurent;Colette;Hickory Street;FOMBELL;724;8496387
+84;M.;André;Francois;Ash Street;LONG GROVE;847;5938724
+85;Mme;Martin;Nicole;Spring Street;NEW RICHMOND;513;1782196
+86;Mme;Fournier;Elisabeth;7th Street;OAKVILLE;860;5877560
+87;M.;Laurent;Bruno;Mill Street;PENRYN;916;7531314
+88;M.;Michel;Rene;Dogwood Street;IRVINGTON;618;0385838
+89;Mme;Simon;Audrey;13th Street;HARWICK;724;1797744
+90;Mme;Robert;Celine;Forest Street;NEWELL;712;8130954
+91;M.;Girard;Marc;Main Street;WHITES CITY;505;1282189
+92;Mme;Martin;Renee;Maple Street;WAVERLY;502;7513928
+93;Mme;Mercier;Celine;Walnut Street;BENTONIA;601;9167705
+94;M.;Roux;Louis;2nd Street;PINEVILLE;704;7738447
+95;Mme;Richard;Margeuerite;Poplar Street;GRANITEVILLE;803;3725989
+96;M.;Mercier;Frederic;Green Street;RINGGOLD;940;9484987
+97;Mme;Thomas;Renee;Broadway Street;EASTABUCHIE;601;8950193
+98;Mme;Richard;Audrey;15th Street;GRAND LEDGE;517;4531962
+99;M.;Dubois;Christophe;Lakeview Street;COLOME;605;2934891
+100;Mme;Michel;Florence;Cedar Street;CUBA;505;1557972
+101;Mme;Fournier;Elodie;Poplar Street;BANGOR;530;9246997
+102;Mme;Lefèvre;Emilie;View Street;MONTROSE;217;6884262
+103;M.;Moreau;Rene;6th Street;FRISCO;972;2489036
+104;M.;Fournier;Gerard;10th Street;GLEN LYON;717;1989837
+105;Mme;Morel;Margeuerite;11th Street;AIRWAY HEIGHTS;509;6014617
+106;M.;Laurent;Stephane;South Street;ESTERO;941;3401988
+107;Mme;Robert;Aurelie;Spruce Street;GEORGETOWN;937;3321909
+108;M.;Bernard;Jean;Elm Street;LEE VINING;760;8135212
+109;Mme;Roux;Cecile;South Street;KEEGO HARBOR;248;3695259
+110;M.;Leroy;Michel;Washington Street;CAMDEN POINT;816;3313605
+111;Mme;Petit;Colette;Eighth Street;HALLANDALE;954;6249333
+112;Mme;Roux;Bernadette;Poplar Street;SAINT BENEDICT;503;6212139
+113;Mme;André;Corinne;2nd Street;WACO;417;2321861
+114;Mme;Morel;Chantal;Madison Street;WOLF CREEK;541;3860851
+115;M.;Thomas;Jerome;Fifteenth Street;SPRINGVILLE;901;8320933
+116;M.;Bertrand;Jean;Hill Street;WHITE SULPHUR SPRINGS;914;4775359
+117;Mme;Vincent;Andree;Sycamore Street;SANDERS;520;3059060
+118;Mme;Martin;Christelle;Highland Street;CURRITUCK;252;6881138
+119;Mme;Michel;Bernadette;Lake Street;HAYNEVILLE;334;0166106
+120;M.;Simon;Stephane;Adams Street;INDIAN VALLEY;208;0060888
+121;M.;Martin;Nicolas;Spring Street;CARYVILLE;850;4743248
+122;Mme;Simon;Monique;Hickory Street;MADERA;814;3447162
+123;M.;Robert;George;Hillcrest Street;PAICINES;831;0210143
+124;M.;Bernard;Christophe;Lake Street;FISHERS;716;8345379
+125;Mme;Richard;Corinne;North Street;NEWFOUNDLAND;717;9602989
+126;Mme;André;Celine;Jefferson Street;HORSE CAVE;502;9067055
+127;M.;Martin;Joseph;Miller Street;LA GRANDE;541;2462196
+128;Mme;Petit;Jeanne;Center Street;HELENA;912;3455611
+129;Mme;Laurent;Jacqueline;Second Street;FAYETTEVILLE;501;1435744
+130;Mme;Dubois;Elodie;3rd Street;TETLIN;907;6619639
+131;Mme;Richard;Monique;5th Street;EAST CHINA;810;6669835
+132;M.;Girard;Didier;Seventh Street;CROCKETT;540;1070555
+133;Mme;Martin;Caroline;Elm Street;MOODUS;860;0123721
+134;M.;Lefebvre;Yves;Sunset Street;DELANO;717;3607422
+135;Mme;Lefebvre;Marie;Walnut Street;DE WITT;660;5788596
+136;M.;Roux;Christian;Main Street;GLENWOOD;708;3204423
+137;Mme;Morel;Josette;Maple Street;LOS ANGELES;323;7519876
+138;M.;Garcia;Thierry;River Street;BATESVILLE;870;5153534
+139;M.;Petit;Henri;8th Street;YONKERS;914;2187494
+140;Mme;André;Cecile;Madison Street;CEDAR SPRINGS;616;3604622
+141;M.;Richard;Daniel;Oak Street;NATIONAL MINE;906;7329678
+142;M.;Robert;Dominique;Washington Street;KOPPEL;724;6456669
+143;M.;Laurent;Marc;Broadway Street;GLADSTONE;804;7381751
+144;Mme;Roux;Jeannine;South Street;HARVEYVILLE;785;4116152
+145;Mme;Bernard;Claire;Highland Street;WYCKOFF;201;2722061
+146;Mme;Richard;Jeanne;Elm Street;NORTH BEND;513;0907705
+147;M.;Robert;Olivier;Main Street;SPENCER;330;3689584
+148;Mme;Thomas;Cecile;1st Street;SOUTH SAINT PAUL;651;9809561
+149;M.;Fournier;Pierre;Green Street;ADJUNTAS;787;4011693
+150;Mme;André;Madeleine;Pine Street;MONTEZUMA;419;4447473
+151;M.;Girard;Christophe;Broadway Street;CHILTON;920;8420249
+152;M.;Fournier;Thomas;Pine Street;TIMBERLAKE;910;5692977
+153;Mme;Lefebvre;Odette;Williams Street;WASHINGTON;309;3678027
+154;M.;David;Andre;Sunset Street;WHITLEYVILLE;931;1971648
+155;M.;Laurent;Paul;Railroad Street;BARLING;501;0761854
+156;Mme;Morel;Laurence;Jackson Street;HASTINGS;402;3818162
+157;Mme;Lefèvre;Andree;Lee Street;MUSKEGON;616;6592051
+158;M.;Moreau;Andre;Woodland Street;VILLAS;609;2734984
+159;M.;David;Louis;4th Street;MONKTON;802;5556279
+160;M.;Martin;Olivier;Maple Street;CARLTON;254;9500973
+161;Mme;Lefèvre;Anne;First Street;CABOT;501;0859995
+162;M.;Morel;Thierry;Lake Street;TRURO;508;8171387
+163;M.;Lefèvre;Paul;Ridge Street;BEACHWOOD;732;5538552
+164;Mme;Durand;Dominique;Second Street;DODGEVILLE;906;3488230
+165;Mme;Bertrand;Francoise;First Street;STRATTON;740;9605337
+166;Mme;Michel;Madeleine;5th Street;WARBRANCH;606;3596719
+167;M.;Martin;Robert;Main Street;CAMP SHERMAN;541;0866746
+168;M.;Garcia;Olivier;Railroad Street;MOORESBURG;423;9798590
+169;Mme;Roux;Margeuerite;Cedar Street;TUSCOLA;517;7246125
+170;M.;Lefebvre;Eric;Ninth Street;ALAMO;701;4569262
+171;M.;Bertrand;Rene;Lake Street;DENT;218;4084493
+172;Mme;Petit;Jacqueline;7th Street;BAGLEY;218;2878142
+173;Mme;Girard;Julie;2nd Street;GOMER;419;6280597
+174;M.;Durand;Bruno;3rd Street;BIG LAKE;907;0242535
+175;Mme;Lefebvre;Caroline;Lakeview Street;DESMET;208;1954804
+176;Mme;Michel;Laetitia;Elm Street;OCHEYEDAN;712;9849889
+177;M.;Garcia;Joseph;Ash Street;SCRANTON;501;7386062
+178;M.;Lefebvre;Marc;Pine Street;WEST LEYDEN;315;4123264
+179;M.;Petit;Sebastien;5th Street;NICKTOWN;814;1000583
+180;Mme;Moreau;Brigitte;Park Street;EKALAKA;406;5620441
+181;M.;Petit;Alain;Oak Street;RINGGOLD;318;8312941
+182;Mme;David;Catherine;Church Street;CREOLA;334;6442166
+183;Mme;Richard;Isabelle;Ridge Street;BILLINGSLEY;205;5544800
+184;M.;Martin;Stephane;Lakeview Street;MASTIC;516;8042634
+185;Mme;Lefebvre;Claudine;13th Street;PHYLLIS;606;5129767
+186;M.;Lefebvre;Guillaume;North Street;WATERVILLE;507;1355880
+187;M.;André;Roger;Jackson Street;APPLE RIVER;815;4279653
+188;Mme;Girard;Denise;Lakeview Street;WAYLAND;716;7183429
+189;Mme;Laurent;Dominique;Broadway Street;PRINSBURG;320;1151744
+190;Mme;Martin;Genevieve;Hillcrest Street;WOODRUFF;864;4651534
+191;M.;Fournier;Henri;Maple Street;CELINA;931;9138757
+192;Mme;Mercier;Elodie;Jackson Street;HAGAMAN;518;8067947
+193;M.;Girard;Michel;Fourth Street;CARROLL;712;5462047
+194;M.;Petit;Sebastien;Walnut Street;LONGDALE;580;3941641
+195;M.;Mercier;Didier;Main Street;MC GREGOR;319;7243344
+196;Mme;Durand;Nicole;Highland Street;NIVERVILLE;518;0165703
+197;Mme;Simon;Celine;Main Street;STONY POINT;914;6424777
+198;M.;Laurent;Thomas;First Street;CARTER;605;8452966
+199;Mme;Durand;Christelle;Park Street;MEDFORD;541;0428510
+200;M.;Richard;Patrick;2nd Street;EAST LANSING;517;0009960
+201;Mme;Lefèvre;Anne;Oak Street;LONDONDERRY;740;5955133
+202;Mme;Martin;Francoise;Birch Street;WATERLOO;618;0035208
+203;M.;Martin;Jacques;10th Street;JEWETT;740;8537232
+204;Mme;Michel;Margeuerite;Ash Street;CORALVILLE;319;5828570
+205;M.;Thomas;Jean-Pierre;3rd Street;BENTON;318;2688253
+206;M.;David;Michel;Sycamore Street;GLENMONT;330;3421912
+207;M.;Roux;Jean;Oak Street;MILTON;302;5771342
+208;Mme;Morel;Claire;Sixth Street;MODESTE;225;8204721
+209;Mme;Moreau;Anne;3rd Street;BOGGSTOWN;317;3727138
+210;M.;Dubois;Maurice;Chestnut Street;LEWISVILLE;507;5334807
+211;M.;Fournier;Daniel;Oak Street;FAIR BLUFF;910;8067131
+212;M.;Leroy;Henri;First Street;CORNELL;715;5722463
+213;Mme;Fournier;Josette;7th Street;ORANGEVILLE;815;5192050
+214;M.;Bernard;Jean;Meadow Street;PORTVILLE;716;3859390
+215;Mme;David;Anne;Willow Street;ROTHVILLE;660;9760566
+216;M.;Martin;David;Forest Street;NEWELL;712;9653025
+217;Mme;Robert;Emilie;Oak Street;GRADY;505;4796872
+218;Mme;Simon;Jeanne;Center Street;ALBERT;405;0554691
+219;M.;Simon;Louis;1st Street;GORIN;660;1383937
+220;M.;Laurent;Louis;Twelfth Street;HAMILTON;978;3203800
+221;M.;Martin;David;Birch Street;RAVINE;717;9200816
+222;M.;David;Marc;East Street;CENTRAL;435;6457591
+223;Mme;Morel;Jeanne;1st Street;BIRMINGHAM;609;1491617
+224;M.;Lefèvre;Joseph;Washington Street;AMHERST;413;1200782
+225;Mme;Moreau;Anne;Maple Street;HOPEWELL JUNCTION;914;6030620
+226;Mme;Petit;Margeuerite;View Street;FORT WAINWRIGHT;907;8126972
+227;Mme;Roux;Michele;Railroad Street;WEST BABYLON;516;1571498
+228;Mme;Leroy;Laetitia;3rd Street;VERONA;417;7835662
+229;M.;Fournier;Patrick;Walnut Street;FRIESLAND;920;0996417
+230;Mme;Petit;Elisabeth;Wilson Street;UNIONTOWN;501;0892275
+231;M.;Petit;Robert;Oak Street;HILDRETH;308;4876185
+232;Mme;Durand;Marcelle;Center Street;LUDLOW;605;6855958
+233;Mme;Garcia;Genevieve;5th Street;CENTRAL POINT;541;1322012
+234;M.;Moreau;Alain;8th Street;TASWELL;812;8275256
+235;M.;Robert;Alexandre;5th Street;FAIRFIELD;509;8384198
+236;M.;Garcia;Pascal;9th Street;LARIMER;724;4176230
+237;M.;Moreau;Jerome;3rd Street;SMITHVILLE;304;0699176
+238;Mme;Michel;Christiane;Park Street;LA COSTE;830;3126927
+239;M.;Martin;Gerard;Hickory Street;LOCUST GROVE;540;4841396
+240;Mme;Lefebvre;Chantal;Broadway Street;HOLYOKE;413;5938092
+241;Mme;Thomas;Andree;Lincoln Street;SAINT PAUL;308;3853191
+242;Mme;Moreau;Patricia;Wilson Street;GREAT FALLS;803;3106305
+243;Mme;Dubois;Laurence;10th Street;MENDON;660;7111896
+244;Mme;Simon;Genevieve;Park Street;ALTAMONT;618;6113623
+245;Mme;Durand;Cecile;1st Street;XENIA;618;2892024
+246;Mme;Simon;Nicole;4th Street;GAS;316;3982782
+247;M.;Morel;George;Franklin Street;CANTON;330;9615436
+248;Mme;Richard;Bernadette;Miller Street;SHELBY;712;5676646
+249;Mme;Richard;Celine;River Street;RUDYARD;906;6778298
+250;M.;Petit;Henri;14th Street;PRINCETON;660;6062846
+251;Mme;Laurent;Andree;Green Street;VERNON CENTER;507;7277222
+252;Mme;Robert;Madeleine;First Street;BUFFALO;864;2393389
+253;M.;Leroy;Gerard;Locust Street;WARREN;401;1115269
+254;Mme;Durand;Christiane;Laurel Street;GILMORE;870;8854179
+255;Mme;Durand;Francoise;Williams Street;OAK BLUFFS;508;6667230
+256;Mme;Bernard;Danielle;Wilson Street;DIXIE;509;1640075
+257;M.;Laurent;Andre;15th Street;DALLAS CITY;217;9253606
+258;Mme;Durand;Julie;1st Street;SAINT DONATUS;319;2146762
+259;M.;Garcia;Serge;1st Street;SARDIS;601;5710483
+260;Mme;Martin;Emilie;Sunset Street;QUENTIN;717;0958303
+261;Mme;Martin;Martine;Mill Street;WINONA;330;6785173
+262;M.;Durand;Daniel;Pine Street;AMADOR CITY;209;0268852
+263;M.;Robert;Pierre;Lee Street;RACINE;740;5165954
+264;Mme;Fournier;Florence;5th Street;ELDERSVILLE;724;2008812
+265;Mme;Simon;Christiane;9th Street;COMO;719;6267003
+266;Mme;Laurent;Dominique;Oak Street;OLIN;319;3280627
+267;M.;Bertrand;Paul;Maple Street;YELLOW PINE;208;3210856
+268;Mme;Petit;Jacqueline;Walnut Street;HAGUE;701;8798734
+269;Mme;Martin;Jeannine;1st Street;GUILFORD;207;4604803
+270;M.;Lefèvre;Sebastien;Pine Street;FREDERIC;715;4250628
+271;Mme;Robert;Claudine;Hillcrest Street;RHINELAND;573;3601499
+272;M.;Martin;Alexandre;5th Street;AURORA;252;8132033
+273;M.;Roux;Sebastien;Hill Street;THOMPSON;573;5739820
+274;M.;Bernard;Gerard;River Street;BEDFORD PARK;708;2573595
+275;Mme;Bernard;Renee;South Street;SUTHERLIN;804;7170368
+276;Mme;Martin;Bernadette;Laurel Street;EASTON;203;8399121
+277;M.;Moreau;Pascal;1st Street;FOLLANSBEE;304;8822567
+278;Mme;Martin;Andree;15th Street;STITZER;608;9917891
+279;M.;Martin;Didier;Green Street;PEPEEKEO;808;3517225
+280;M.;Bernard;Philippe;Wilson Street;TOMBALL;281;0616105
+281;M.;Michel;Yves;Washington Street;NEW LEIPZIG;701;8152338
+282;Mme;Martin;Brigitte;Lakeview Street;MEDFORD;617;6565603
+283;M.;Durand;Thierry;Oak Street;PERHAM;218;9671515
+284;M.;Bernard;Christophe;15th Street;LOUISVILLE;402;8319176
+285;M.;Robert;Paul;Lakeview Street;MEYERS CHUCK;907;2181564
+286;M.;David;Jean;Oak Street;AGAT;671;4885392
+287;Mme;Richard;Michele;Park Street;DURAND;517;4259995
+288;M.;Vincent;Yves;Poplar Street;MARIPOSA;209;5243263
+289;M.;Leroy;Nicolas;Forest Street;EDEN VALLEY;320;0130807
+290;M.;Bernard;Marcel;Cedar Street;ELK;707;5607121
+291;Mme;Simon;Paulette;Walnut Street;SAINT MATTHEWS;803;0525776
+292;Mme;Leroy;Madeleine;Locust Street;BELLS;903;9928698
+293;Mme;Martin;Colette;Pine Street;LESTERVILLE;605;9979328
+294;M.;Martin;Jerome;Cedar Street;HUNTLEY;307;2825263
+295;Mme;Laurent;Genevieve;Main Street;BONE GAP;618;5394719
+296;M.;Bernard;Daniel;Locust Street;KRAKOW;920;2999167
+297;M.;Bernard;Sebastien;Taylor Street;MERRIMACK;603;6068154
+298;Mme;Thomas;Catherine;Cedar Street;WARD COVE;907;6593648
+299;Mme;Simon;Catherine;Johnson Street;WENTWORTH;417;6802979
+300;M.;Lefebvre;Stephane;Lincoln Street;KILAUEA;808;2772917
+301;Mme;Martin;Julie;Main Street;FREWSBURG;716;2441450
+302;M.;Dubois;Olivier;East Street;VIENNA;573;9392849
+303;Mme;Leroy;Genevieve;6th Street;NINEVEH;317;3562070
+304;Mme;Vincent;Catherine;Highland Street;SOUTH WILLINGTON;860;0576843
+305;M.;Bernard;Gerard;Woodland Street;CENTERVILLE;931;0532281
+306;M.;Girard;Thierry;South Street;QUESTA;505;9685952
+307;M.;Simon;Christian;Hickory Street;LYNBROOK;516;9499375
+308;Mme;Bernard;Josette;2nd Street;COHASSET;218;9894392
+309;M.;Dubois;Dominique;Lakeview Street;BROWNTOWN;608;6216396
+310;M.;Martin;Jerome;Lake Street;VAN HORNE;319;0287988
+311;M.;Moreau;Rene;2nd Street;BETHANY;405;7425625
+312;M.;Lefebvre;Bruno;Spruce Street;OCEAN GROVE;732;8549814
+313;Mme;Garcia;Laurence;Twelfth Street;JACOBS CREEK;724;4781797
+314;Mme;Fournier;Audrey;1st Street;FORT IRWIN;760;2398279
+315;Mme;Thomas;Helene;Second Street;BLACK RIVER FALLS;715;8713071
+316;Mme;David;Christine;Wilson Street;MORA;660;2467707
+317;M.;Roux;Christian;1st Street;NORWICH;802;2790530
+318;Mme;Laurent;Brigitte;12th Street;ESSEX;573;2399729
+319;Mme;Thomas;Martine;Walnut Street;POMPEY;315;2792416
+320;Mme;Roux;Michele;Fourth Street;LEONARD;660;1251853
+321;M.;Morel;Frederic;2nd Street;HANOVER;505;7403342
+322;Mme;Roux;Margeuerite;College Street;STEBBINS;907;7404175
+323;Mme;Thomas;Florence;Washington Street;WEST ELIZABETH;412;1969462
+324;M.;Dubois;Thierry;Walnut Street;BELLEVUE;425;6477483
+325;M.;Richard;Guy;Broadway Street;TALALA;918;1717081
+326;M.;Richard;Sebastien;Woodland Street;ORDERVILLE;435;7965841
+327;M.;Thomas;Christophe;South Street;WINDHAM;860;3386167
+328;M.;Robert;Jacques;13th Street;WESTON;781;8348802
+329;Mme;Simon;Claire;5th Street;ATTICA;419;4737394
+330;Mme;André;Dominique;2nd Street;WESTVIEW;502;1204110
+331;Mme;David;Laetitia;Elm Street;KIRTLAND AFB;505;9964581
+332;M.;Martin;Eric;East Street;DEWY ROSE;706;8772653
+333;Mme;Mercier;Nicole;9th Street;FLORENCE;413;1803508
+334;M.;Richard;Eric;Davis Street;NORTH NEWTON;316;8702038
+335;M.;Laurent;Eric;Sunset Street;LIMAVILLE;330;3705426
+336;Mme;Garcia;Paulette;Center Street;STITZER;608;0803210
+337;Mme;Martin;Jacqueline;Poplar Street;THORNBURG;515;2258133
+338;M.;Richard;Jean;Madison Street;PARKER DAM;760;4331730
+339;M.;Lefèvre;Robert;Mill Street;MOZIER;618;2766477
+340;M.;Martin;Vincent;Washington Street;RANCHOS DE TAOS;505;0018425
+341;Mme;David;Josette;Mill Street;CENTREVILLE;601;8635021
+342;Mme;Laurent;Emilie;Park Street;CLIFTON;931;4958879
+343;M.;Lefebvre;Rene;Jackson Street;CULEBRA;787;4886826
+344;Mme;Richard;Brigitte;Center Street;AMENIA;701;1272695
+345;Mme;Roux;Cecile;Miller Street;GROUSE CREEK;435;2439240
+346;M.;Moreau;Paul;River Street;ALLAKAKET;907;0322073
+347;M.;Thomas;Rene;9th Street;OTTOVILLE;419;9664965
+348;Mme;Martin;Anne;Broadway Street;KEARNY;520;4264084
+349;M.;Moreau;David;Hill Street;SANDERS;520;9206803
+350;Mme;Lefebvre;Danielle;View Street;LOST HILLS;805;1221213
+351;Mme;Vincent;Celine;Dogwood Street;CHEVAK;907;0971699
+352;Mme;David;Christiane;Hillcrest Street;FARSON;307;7861732
+353;M.;Bertrand;Serge;Walnut Street;DELL;870;8742852
+354;M.;Thomas;Didier;Cedar Street;KENTWOOD;504;2903888
+355;M.;Petit;Alexandre;South Street;NEWBURY;978;6948461
+356;Mme;Michel;Claudine;3rd Street;MORRISTON;352;3745502
+357;Mme;Lefebvre;Helene;Wilson Street;FLEMING;970;2518449
+358;Mme;Roux;Marcelle;3rd Street;LAHASKA;215;4449134
+359;Mme;Simon;Bernadette;14th Street;WARNE;828;3445767
+360;Mme;Martin;Julie;Elm Street;TERRE HILL;717;4965487
+361;M.;Leroy;Joseph;Lee Street;WEYANOKE;225;6945512
+362;Mme;Vincent;Laurence;Woodland Street;WALTHAM;781;0589945
+363;Mme;Mercier;Christine;Park Street;EDGERTON;608;2211038
+364;M.;Mercier;Thierry;Willow Street;PORT O CONNOR;512;4010224
+365;Mme;David;Laetitia;11th Street;EAST BRANCH;607;2616971
+366;Mme;Moreau;Bernadette;Franklin Street;REDFORD;915;2789101
+367;Mme;Michel;Monique;10th Street;SAINT MICHAEL;612;8740375
+368;Mme;Martin;Catherine;Elm Street;NEWTOWN;804;7530367
+369;Mme;Petit;Jacqueline;Ash Street;CLAIRFIELD;423;4488192
+370;M.;Martin;Alexandre;Cedar Street;MOULTON;515;6970023
+371;M.;Martin;Yves;View Street;MURFREESBORO;870;2856180
+372;M.;Martin;Pascal;12th Street;WASHINGTON;606;1237831
+373;M.;Richard;Guy;Tenth Street;ETHEL;601;6596867
+374;M.;Fournier;Thierry;Third Street;CRIPPLE CREEK;540;8161093
+375;M.;Lefebvre;Laurent;Forest Street;WAVERLY;607;4506379
+376;Mme;Thomas;Helene;Ridge Street;EQUALITY;618;1064868
+377;Mme;Robert;Renee;Wilson Street;PAINESVILLE;440;7911044
+378;Mme;Garcia;Caroline;Center Street;EAST RYEGATE;802;5327407
+379;Mme;Garcia;Madeleine;Hill Street;UCON;208;6403678
+380;Mme;Martin;Catherine;Ridge Street;CONCORD;802;0066805
+381;M.;Lefèvre;Henri;Davis Street;TRENTON;435;9505423
+382;M.;Durand;Guy;1st Street;AMELIA;402;7409389
+383;Mme;Mercier;Renee;Washington Street;ODENTON;410;4291151
+384;M.;Fournier;Louis;Eighth Street;CANTON;309;7091101
+385;M.;Bernard;Maurice;Miller Street;WOLFE;304;3744694
+386;Mme;Robert;Anne;4th Street;LOYAL;715;4835162
+387;M.;Laurent;Andre;North Street;NEW CAMBRIA;660;9853093
+388;Mme;Dubois;Natalie;3rd Street;CEDAR RUN;717;4140534
+389;Mme;Dubois;Colette;Oak Street;AUTO;304;1130154
+390;M.;Richard;Philippe;Cedar Street;KANONA;607;9944426
+391;Mme;Dubois;Laurence;Cherry Street;COUNTRY CLUB HILLS;708;9482418
+392;Mme;André;Josette;Cedar Street;KENSINGTON;320;8187272
+393;M.;Lefebvre;Jerome;East Street;WEST COPAKE;518;0827132
+394;Mme;Roux;Elisabeth;9th Street;SHELBY;712;2093434
+395;Mme;Dubois;Josette;Broadway Street;PRINCESS ANNE;410;3305698
+396;Mme;Laurent;Julie;Third Street;FREETOWN;812;0883077
+397;Mme;Richard;Isabelle;1st Street;SAINT VRAIN;505;2619761
+398;Mme;Durand;Claire;Park Street;BIGFORK;218;0861205
+399;Mme;Lefebvre;Bernadette;First Street;RANIER;218;1652634
+400;Mme;Girard;Monique;Lincoln Street;ISLE OF WIGHT;757;8253989
+401;M.;Dubois;Christophe;West Street;JONESVILLE;517;3856399
+402;Mme;Martin;Laetitia;Madison Street;RIPPON;304;5368492
+403;M.;Lefebvre;Alexandre;Spruce Street;SUCHES;706;3231276
+404;Mme;Durand;Danielle;Hickory Street;RIDGELY;410;9736528
+405;M.;Michel;Laurent;Railroad Street;BUCHANAN;701;3307675
+406;M.;Richard;Serge;Fourth Street;KIRKLAND;815;8192170
+407;Mme;Durand;Claudine;Hillcrest Street;FAIRVIEW;740;0593893
+408;M.;Richard;Yves;Seventh Street;MEADOW CREEK;304;8019459
+409;Mme;Leroy;Bernadette;Lee Street;APPLETON;509;0507230
+410;Mme;Lefebvre;Chantal;Willow Street;BRAITHWAITE;504;1956922
+411;Mme;Fournier;Catherine;West Street;CHENANGO BRIDGE;607;2138181
+412;M.;Moreau;Frederic;View Street;JONBEN;304;1672503
+413;Mme;Richard;Natalie;7th Street;VEST;606;1901697
+414;Mme;Moreau;Corinne;North Street;CHAPPAQUA;914;2956631
+415;M.;Robert;Maurice;Hill Street;BONAPARTE;319;6678444
+416;M.;Leroy;Francois;North Street;CORTLANDT MANOR;914;9245830
+417;M.;Michel;Joseph;Thirteenth Street;WORLEY;208;6597135
+418;Mme;Martin;Nicole;Franklin Street;BEDFORD;440;9880491
+419;M.;Richard;Franck;Poplar Street;HENDLEY;308;3663957
+420;M.;Garcia;Henri;Ridge Street;BRETTON WOODS;603;5327637
+421;Mme;André;Chantal;Miller Street;BADGER;515;8051458
+422;M.;Lefèvre;Olivier;Pine Street;COLUMBUS;316;7805151
+423;Mme;Fournier;Christiane;Lee Street;ALLEN PARK;313;0119309
+424;M.;Thomas;Daniel;7th Street;WATER VIEW;804;9430404
+425;M.;Martin;Jean;Locust Street;EAST ORANGE;973;0973268
+426;Mme;Michel;Madeleine;Fourth Street;WEST NEWTON;317;2360661
+427;Mme;Mercier;Chantal;Maple Street;PARKIN;870;4883034
+428;Mme;Garcia;Elodie;Smith Street;HENDERSON;252;5838760
+429;M.;Girard;Andre;Maple Street;SOUTH CAIRO;518;7500562
+430;M.;Bernard;Christophe;Cedar Street;ROYSE CITY;972;0438724
+431;Mme;Bernard;Denise;Smith Street;ASHTABULA;440;7728214
+432;Mme;Robert;Chantal;Poplar Street;LANDISBURG;717;7551528
+433;Mme;Leroy;Andree;Elm Street;DELTA;573;3576940
+434;M.;David;Serge;Fourth Street;ADA;616;8327618
+435;Mme;Moreau;Caroline;Forest Street;WORTHVILLE;502;4867169
+436;M.;Laurent;Bruno;Fifth Street;WHITWELL;423;6280228
+437;M.;Dubois;Bruno;9th Street;CASPIAN;906;2138440
+438;M.;Robert;Jean-Pierre;5th Street;JOELTON;615;4771426
+439;M.;David;Nicolas;Johnson Street;SAINT REGIS;406;0362062
+440;Mme;Girard;Florence;Forest Street;CHUCKEY;423;0344619
+441;Mme;Richard;Laurence;Wilson Street;LAKE ELMO;651;2521751
+442;M.;Girard;Bernard;Park Street;FESSENDEN;701;8703019
+443;M.;Mercier;Serge;15th Street;TALOGA;580;0967078
+444;Mme;Martin;Danielle;Mill Street;CONCORD;978;3339232
+445;M.;Leroy;Franck;Willow Street;BETHEL SPRINGS;901;9029389
+446;M.;Bertrand;Andre;Fourteenth Street;WHATELY;413;6775716
+447;M.;Leroy;Sebastien;Forest Street;BOONVILLE;660;1870306
+448;Mme;Dubois;Denise;Elm Street;SUMMIT;601;7064552
+449;Mme;Moreau;Colette;Main Street;DECKER;812;9285205
+450;M.;Morel;Frederic;Davis Street;SUMMITVILLE;765;6741428
+451;M.;Martin;Guillaume;Meadow Street;HILL CITY;218;9793768
+452;Mme;Moreau;Dominique;Oak Street;HOLLOWVILLE;518;6099307
+453;M.;Leroy;Christian;4th Street;CEDAR FALLS;336;5213675
+454;Mme;Martin;Odette;8th Street;ORRS ISLAND;207;1956286
+455;Mme;Lefebvre;Chantal;South Street;TIPTON;517;6902517
+456;M.;André;Jerome;Cedar Street;PRINCETON;256;1744902
+457;Mme;Martin;Christine;2nd Street;PARK RIVER;701;5185753
+458;M.;Fournier;Julien;Lee Street;MINDEN;318;0997743
+459;Mme;Fournier;Annie;Hill Street;EAST BURKE;802;7965274
+460;M.;Bertrand;Pascal;Maple Street;LAMOURE;701;6585051
+461;M.;David;Vincent;6th Street;FOSTER;660;0085908
+462;M.;Simon;Thierry;Third Street;SEAVIEW;360;5282504
+463;Mme;Durand;Monique;Washington Street;GOLDEN EAGLE;618;9933444
+464;Mme;Laurent;Nicole;Willow Street;DICKINSON;701;0577867
+465;Mme;David;Odette;6th Street;CHAZY;518;8015834
+466;Mme;Lefebvre;Elodie;Miller Street;BISHOPVILLE;410;5240299
+467;Mme;Martin;Brigitte;Adams Street;TOLUCA LAKE;818;6631369
+468;M.;Martin;Andre;5th Street;MARBLE HILL;573;9977279
+469;M.;Robert;Henri;Cherry Street;PURYEAR;901;4355743
+470;Mme;Martin;Emilie;Washington Street;BELVA;304;0174966
+471;Mme;Bernard;Bernadette;2nd Street;SKWENTNA;907;2629252
+472;M.;Morel;Joseph;4th Street;LANCASTER;803;8654867
+473;Mme;Thomas;Aurelie;Woodland Street;CARTHAGE;601;2472672
+474;Mme;Durand;Helene;Oak Street;ICARD;828;8398035
+475;Mme;Lefèvre;Elisabeth;Spring Street;COWLESVILLE;716;0737233
+476;Mme;Durand;Laurence;4th Street;SCHOHARIE;518;5505115
+477;Mme;Martin;Isabelle;Park Street;ZELIENOPLE;724;4931141
+478;M.;Bernard;Jean-Pierre;Johnson Street;CLARK;573;9725729
+479;M.;Durand;Eric;3rd Street;POST FALLS;208;1606431
+480;M.;Garcia;George;Fifth Street;HEATHSVILLE;804;7774787
+481;M.;Morel;Joseph;Church Street;BARNESVILLE;301;9596114
+482;Mme;David;Corinne;Taylor Street;BLOOMFIELD;515;8295383
+483;Mme;Dubois;Odette;Third Street;MADISON;608;6153502
+484;M.;Robert;David;Seventh Street;KAHUKU;808;9984455
+485;M.;Michel;Serge;Maple Street;TAYLOR;512;2186586
+486;M.;Mercier;Laurent;10th Street;PERU;207;4431610
+487;Mme;Richard;Renee;8th Street;DIGHTON;508;9455500
+488;Mme;David;Jeannine;Cedar Street;NORTH LAKEWOOD;360;1621565
+489;Mme;Morel;Danielle;Fifth Street;LOOMIS;509;7348034
+490;M.;Simon;Yves;Center Street;SEMINOLE;814;0834394
+491;M.;Fournier;Philippe;Park Street;HAUULA;808;9079092
+492;Mme;Martin;Annie;8th Street;AROCK;541;9534199
+493;Mme;Bernard;Claire;Hill Street;CAMDEN WYOMING;302;6769647
+494;Mme;Bernard;Bernadette;Smith Street;SOUTH BURLINGTON;802;5363417
+495;Mme;David;Christine;1st Street;DENNISON;740;4970167
+496;Mme;André;Patricia;Cherry Street;SEARLES;507;3091829
+497;Mme;Martin;Paulette;Forest Street;MARIPOSA;209;6511501
+498;Mme;Lefèvre;Renee;Hillcrest Street;CROUSEVILLE;207;3249812
+499;Mme;Durand;Madeleine;Forest Street;WELLSTON;740;1601471
+500;Mme;Robert;Audrey;Third Street;SERENA;815;1902204
+501;M.;Petit;Joseph;Ninth Street;SOUTH GLENS FALLS;518;9228051
+502;M.;Martin;Joseph;1st Street;OGUNQUIT;207;8480206
+503;M.;Laurent;Guillaume;5th Street;EVANS;509;2128076
+504;M.;Robert;Bruno;5th Street;MAUPIN;541;6803824
+505;Mme;Petit;Caroline;Pine Street;MARION;502;1741203
+506;M.;Michel;Louis;Sycamore Street;KIM;719;2335701
+507;Mme;Vincent;Julie;4th Street;FORT BRAGG;910;2386063
+508;Mme;Martin;Jacqueline;Fifth Street;QUILCENE;360;4260956
+509;M.;Moreau;Christophe;Maple Street;JEFFERSON;843;6664702
+510;Mme;Vincent;Celine;Church Street;ROUSES POINT;518;1259366
+511;Mme;Vincent;Genevieve;Lake Street;ORCHARD;970;2601142
+512;M.;Martin;Roger;1st Street;FULTONHAM;740;1136164
+513;M.;David;Christian;West Street;MONHEGAN;207;0592987
+514;M.;Petit;Marcel;Cedar Street;SOUTHAMPTON;215;1113201
+515;Mme;André;Genevieve;View Street;MOSCOW;717;9881901
+516;Mme;Durand;Audrey;College Street;LOUISIANA;573;9581574
+517;M.;Richard;Pierre;Hillcrest Street;MC COMB;419;9375566
+518;Mme;Dubois;Jeannine;Poplar Street;LIHUE;808;6115299
+519;Mme;Laurent;Renee;North Street;WATERBURY CENTER;802;4029656
+520;M.;David;Robert;5th Street;HOLLYWOOD;843;5901837
+521;Mme;Moreau;Martine;13th Street;FAIRVIEW;502;7211986
+522;Mme;Leroy;Madeleine;Lake Street;HURRICANE;435;2068232
+523;M.;Vincent;Jerome;Cherry Street;DEWEESE;402;7767221
+524;Mme;Garcia;Dominique;Willow Street;SAVAGE;612;4843274
+525;M.;Garcia;Marcel;Pine Street;TOMATO;870;4158379
+526;Mme;Moreau;Corinne;Cherry Street;EDWARDS;309;2134923
+527;Mme;Martin;Helene;Madison Street;FORDVILLE;701;4412951
+528;M.;Mercier;Marc;Church Street;HOLMEN;608;3351769
+529;M.;Bernard;Didier;13th Street;WEST MANSFIELD;937;8541182
+530;Mme;Fournier;Nicole;South Street;GLENPOOL;918;4116967
+531;M.;Roux;Marcel;Lake Street;NUTTSVILLE;804;9598108
+532;M.;Garcia;Frederic;River Street;ENDWELL;607;9945659
+533;Mme;Martin;Laurence;South Street;IVORYTON;860;2371934
+534;Mme;André;Francoise;Highland Street;DRAKESBORO;502;7139544
+535;Mme;Richard;Laetitia;Franklin Street;CLARKS SUMMIT;717;8736716
+536;Mme;Girard;Catherine;14th Street;MC KINNON;307;8323231
+537;Mme;Mercier;Christine;Cedar Street;RUPERT;802;7900424
+538;Mme;André;Nicole;Lincoln Street;MARBLE FALLS;830;7753664
+539;M.;Bernard;Gerard;Sixth Street;LIGONIER;219;1203028
+540;M.;Girard;Guy;13th Street;STONEHAM;207;6520818
+541;Mme;Fournier;Christiane;Elm Street;GLIDDEN;715;8391416
+542;Mme;André;Julie;First Street;KEATCHIE;318;8291295
+543;M.;Moreau;Guillaume;Second Street;NEW BUFFALO;616;1753274
+544;Mme;Robert;Annie;Elm Street;ALLEN;410;0833289
+545;M.;Bernard;Yves;Johnson Street;PLATTSBURG;816;5903719
+546;M.;Moreau;Dominique;7th Street;O FALLON;314;8742484
+547;Mme;Richard;Claire;13th Street;TRILBY;352;8086387
+548;M.;Durand;Patrick;Spruce Street;TALLMANSVILLE;304;8767795
+549;Mme;Bernard;Corinne;West Street;AMELIA;513;7488239
+550;M.;Leroy;Alexandre;Wilson Street;HARPURSVILLE;607;8403899
+551;Mme;Michel;Catherine;3rd Street;IRONTON;573;0682728
+552;M.;Robert;Patrick;Church Street;JESUP;912;6823789
+553;M.;Lefebvre;Marcel;Hickory Street;HEBER;760;4281169
+554;Mme;Simon;Catherine;Spring Street;PRINCETON;541;5703023
+555;Mme;Leroy;Monique;15th Street;GEORGETOWN;302;3218618
+556;M.;Thomas;George;1st Street;TOLNA;701;5466076
+557;M.;Moreau;Nicolas;Park Street;MONKTON;410;1543655
+558;M.;Martin;Patrick;Valley Street;SEAGROVE;336;4698788
+559;M.;Roux;Rene;5th Street;ATHENS;304;4203961
+560;Mme;Richard;Isabelle;Chestnut Street;TABLE GROVE;309;8941200
+561;Mme;Roux;Danielle;Woodland Street;POWHATAN;304;5192017
+562;M.;Dubois;Jerome;Cedar Street;WILSIE;304;6698748
+563;Mme;André;Corinne;Walnut Street;EGG HARBOR TOWNSHIP;609;8034341
+564;M.;Leroy;Henri;Davis Street;MAYFIELD;502;5233759
+565;Mme;Thomas;Marcelle;5th Street;BLOOMFIELD;515;5084698
+566;Mme;Thomas;Laetitia;2nd Street;ATHENS;616;4904201
+567;M.;Garcia;Daniel;Jackson Street;KANSAS;205;0413332
+568;Mme;Simon;Marie;North Street;THOMASVILLE;334;4412097
+569;M.;Petit;Maurice;Cherry Street;LACONIA;812;2863455
+570;M.;Dubois;Eric;Main Street;BLANCA;719;2243671
+571;Mme;Simon;Julie;South Street;MIDDLEBURGH;518;4121315
+572;M.;Girard;Guillaume;Chestnut Street;HARTFORD;334;4782076
+573;Mme;Vincent;Laetitia;12th Street;VICTORIA;612;1109520
+574;Mme;Leroy;Colette;Main Street;ROSWELL;770;3031330
+575;Mme;Michel;Genevieve;4th Street;SWAMPSCOTT;781;7966559
+576;Mme;Moreau;Anne;Eighth Street;GRAND TOWER;618;1628293
+577;Mme;Dubois;Odette;Walnut Street;COLUMBIA;803;1413676
+578;M.;Lefebvre;Christophe;12th Street;STRATFORD;804;0532661
+579;M.;Laurent;Yves;Walnut Street;ROSLINDALE;617;2524406
+580;Mme;Lefebvre;Chantal;Forest Street;BESSIE;580;2402094
+581;M.;Lefèvre;Christophe;Fifth Street;OTLEY;515;8993517
+582;Mme;Fournier;Patricia;Second Street;GLASSTON;701;2369083
+583;Mme;Martin;Monique;7th Street;HAZELWOOD;828;3572506
+584;Mme;Martin;Anne;12th Street;ACME;318;6008687
+585;M.;Vincent;Thomas;Railroad Street;CHARLESTOWN;617;9930107
+586;M.;Girard;Alain;Second Street;AKRON;219;2795452
+587;Mme;Michel;Christine;1st Street;COLLEGE PARK;301;3040547
+588;Mme;Petit;Josette;1st Street;WILDER;931;1612578
+589;Mme;Dubois;Claudine;Maple Street;BRISTOL;219;8186821
+590;Mme;Garcia;Danielle;3rd Street;PLAINVILLE;812;6882436
+591;M.;Vincent;Jacques;Third Street;RIDGEWAY;252;9076780
+592;M.;Mercier;Yves;2nd Street;LAUGHLINTOWN;724;1647915
+593;Mme;Robert;Jacqueline;First Street;VALRICO;813;5365686
+594;Mme;Michel;Christiane;View Street;MORONI;435;3835723
+595;M.;Fournier;Roger;Highland Street;ROWLEY;978;0752069
+596;M.;Moreau;Frederic;Birch Street;NEBRASKA;812;5478338
+597;Mme;Leroy;Martine;Jackson Street;WANDA;507;1643169
+598;Mme;Roux;Laetitia;1st Street;VENETIA;724;0380144
+599;Mme;Morel;Dominique;Sunset Street;GLEN ROGERS;304;8561252
+600;Mme;Vincent;Patricia;Laurel Street;ARNOLD AFB;931;5294433
+601;Mme;Martin;Bernadette;Willow Street;SPRING GLEN;717;2675403
+602;M.;Laurent;Guillaume;Willow Street;FLORENCE;316;3333018
+603;M.;Moreau;David;Pine Street;CASCADE;804;2205462
+604;M.;Moreau;Philippe;North Street;PLAINWELL;616;3893751
+605;Mme;Michel;Danielle;Hickory Street;CIMA;760;9320547
+606;M.;Michel;Alain;Franklin Street;MIAMI BEACH;305;1344288
+607;M.;Robert;Paul;6th Street;MOORE;830;4588860
+608;M.;Martin;Bernard;8th Street;DUE WEST;864;0666008
+609;Mme;Lefèvre;Marie;Park Street;RICHTON;601;0680567
+610;M.;Michel;Michel;Cedar Street;MC LAIN;601;3954957
+611;Mme;Richard;Elodie;Woodland Street;CAMERON;715;5829100
+612;M.;Mercier;Philippe;Railroad Street;WARWICK;701;7063232
+613;M.;Richard;Roger;West Street;ELLENDALE;302;6087543
+614;M.;David;Nicolas;2nd Street;HARRISBURG;717;7685816
+615;Mme;Bernard;Paulette;7th Street;LUFKIN;409;0208197
+616;M.;Dubois;Frederic;10th Street;FORT WINGATE;505;6306949
+617;Mme;Dubois;Denise;Valley Street;SUGAR LOAF;914;4748811
+618;Mme;Thomas;Annie;Oak Street;SEDALIA;502;7688486
+619;Mme;Fournier;Caroline;Sunset Street;SULLIVAN;414;8448882
+620;Mme;Michel;Audrey;7th Street;BLISS;208;8909871
+621;M.;Robert;Patrick;Main Street;COLERAINE;218;8497932
+622;Mme;Thomas;Francoise;Miller Street;EAST POULTNEY;802;6263955
+623;M.;Thomas;Julien;View Street;GRINNELL;785;1214678
+624;M.;Michel;Roger;Valley Street;SYBERTSVILLE;717;7881682
+625;Mme;Robert;Audrey;6th Street;DURHAM;610;7065924
+626;Mme;Durand;Cecile;Maple Street;SAWYER;616;9457078
+627;M.;Lefèvre;Thierry;Dogwood Street;FREEPORT;724;0879975
+628;Mme;Thomas;Helene;Walnut Street;OTTSVILLE;610;3992364
+629;Mme;Dubois;Jeanne;Forest Street;HOWELL;732;5357698
+630;Mme;Richard;Margeuerite;Laurel Street;COIN;712;5848880
+631;M.;Mercier;Vincent;Locust Street;MOCCASIN;406;3970381
+632;M.;Leroy;Christian;Church Street;HOOVEN;513;9107113
+633;Mme;Laurent;Emilie;Sixth Street;ETNA;607;9307043
+634;M.;Leroy;Marcel;College Street;SAXIS;757;2009934
+635;M.;David;Marcel;Pine Street;LEFOR;701;7975106
+636;Mme;Leroy;Margeuerite;Smith Street;ZALESKI;740;8638237
+637;Mme;Lefèvre;Monique;10th Street;TIERRA AMARILLA;505;0385289
+638;Mme;Bernard;Marcelle;Maple Street;CLARIDGE;724;9524251
+639;M.;Fournier;Stephane;Ash Street;WHITING;219;9270407
+640;M.;Lefèvre;Christophe;2nd Street;PINE ISLAND;914;3708899
+641;Mme;Durand;Genevieve;Johnson Street;SIPSEY;205;2591299
+642;Mme;Bertrand;Dominique;2nd Street;DAYTON;208;2759010
+643;Mme;Bernard;Michele;Cherry Street;ELIZABETHTOWN;618;2252412
+644;M.;Petit;Julien;Birch Street;SPRING HILL;931;6145815
+645;Mme;Thomas;Helene;6th Street;MISHICOT;920;1429584
+646;Mme;Petit;Christiane;10th Street;SORRENTO;225;9870467
+647;M.;Thomas;Jerome;Maple Street;WILMINGTON;978;7342206
+648;Mme;Durand;Madeleine;6th Street;KNIPPA;830;6862053
+649;M.;Girard;Laurent;Mill Street;JERSEY CITY;201;1481248
+650;Mme;Garcia;Brigitte;West Street;SAINT PAUL;308;7370448
+651;Mme;Lefebvre;Danielle;Sixth Street;SKANDIA;906;5231178
+652;Mme;Petit;Marcelle;Railroad Street;YERKES;606;8263846
+653;M.;Bertrand;Didier;Jackson Street;SOUTHWORTH;360;5649108
+654;Mme;Robert;Odette;Laurel Street;HAGARVILLE;501;0097565
+655;M.;Leroy;Sebastien;Spring Street;ALBANY;510;6513537
+656;M.;Martin;Rene;1st Street;ANGELS CAMP;209;7449071
+657;Mme;Vincent;Brigitte;Park Street;ANNEMANIE;334;9086801
+658;Mme;Richard;Christine;Mill Street;ADELL;920;3202899
+659;M.;Bernard;Claude;4th Street;ISLE AU HAUT;207;3126565
+660;M.;Richard;Olivier;Meadow Street;ELK;707;9524839
+661;Mme;Michel;Catherine;River Street;CAPAC;810;5853999
+662;M.;Robert;Jacques;3rd Street;SALISBURY;410;6943022
+663;M.;Martin;Olivier;Park Street;KILGORE;903;0656990
+664;Mme;Robert;Denise;3rd Street;WORTHINGTON;606;5987894
+665;Mme;Garcia;Isabelle;Maple Street;BERRIEN CENTER;616;6611662
+666;Mme;Laurent;Bernadette;Highland Street;CENTURY;850;2357317
+667;Mme;Fournier;Corinne;11th Street;NASELLE;360;2456916
+668;M.;Lefebvre;Marcel;Hillcrest Street;SHREWSBURY;717;4635713
+669;M.;Laurent;Julien;Lincoln Street;MIZPAH;218;3821610
+670;Mme;Bernard;Catherine;Maple Street;HICKSVILLE;419;7846038
+671;Mme;Bernard;Anne;6th Street;GARFIELD;316;4930914
+672;Mme;Richard;Elisabeth;Pine Street;KNOB LICK;573;3261917
+673;Mme;Moreau;Audrey;Cedar Street;RUSSELL;847;5317761
+674;M.;Dubois;Roger;South Street;FAIRLESS HILLS;215;4341325
+675;Mme;Bernard;Paulette;Oak Street;CORSICA;605;0601250
+676;Mme;Mercier;Madeleine;2nd Street;DUCKTOWN;423;8837891
+677;Mme;Robert;Helene;7th Street;MEDICINE BOW;307;6666504
+678;M.;Vincent;Laurent;Ninth Street;MARTINSVILLE;409;4126652
+679;M.;Lefèvre;Alexandre;Oak Street;SEAFORD;757;0049972
+680;Mme;Michel;Christine;Fourth Street;SPRINGERTON;618;3143857
+681;Mme;Moreau;Cecile;Lincoln Street;AUBERRY;559;5792775
+682;Mme;Thomas;Monique;Fifth Street;CLINTON;580;8932557
+683;M.;Thomas;Laurent;Fourth Street;BRONAUGH;417;1845235
+684;Mme;Thomas;Andree;Railroad Street;NEW CAMBRIA;660;2023851
+685;M.;Robert;Pascal;Park Street;FARMINGVILLE;516;3574591
+686;Mme;Roux;Caroline;View Street;VOORHEES;609;0426009
+687;M.;Moreau;Marc;Smith Street;OCILLA;912;8435602
+688;M.;Robert;Jerome;Lake Street;CHROMO;970;3117367
+689;Mme;Petit;Marcelle;View Street;NEW GLOUCESTER;207;8518973
+690;M.;Morel;Francois;Hillcrest Street;CLEMENTS;209;2361743
+691;Mme;Durand;Elodie;Elm Street;BLACKWELL;915;7904002
+692;M.;Michel;Eric;Birch Street;DAISY;912;4069146
+693;Mme;Garcia;Bernadette;Fourth Street;CARPENTER;515;4774715
+694;M.;Vincent;Vincent;Miller Street;SAN FRANCISCO;415;5791106
+695;M.;Vincent;Christian;North Street;WASHBURN;715;4482777
+696;M.;Simon;Alain;Hickory Street;FAR HILLS;908;7909025
+697;Mme;Robert;Christelle;Tenth Street;RELIANCE;605;9024383
+698;Mme;Petit;Marie;Pine Street;DOWELL;410;3931111
+699;Mme;Martin;Laetitia;Maple Street;PEDRICKTOWN;609;9035734
+700;Mme;Vincent;Patricia;Miller Street;WAREHAM;508;8405489
+701;M.;Michel;Marc;11th Street;SHERMAN;217;8763428
+702;Mme;Garcia;Martine;8th Street;HOLUALOA;808;4095405
+703;Mme;Thomas;Odette;Jefferson Street;PLAINFIELD;603;3955326
+704;M.;Durand;Guillaume;Walnut Street;HOPEWELL;609;7939043
+705;Mme;Lefebvre;Catherine;Sunset Street;NU MINE;724;4019706
+706;M.;Mercier;Daniel;Jackson Street;ALBANY;660;8990905
+707;M.;Bernard;Yves;9th Street;CHRISTIANA;610;5061936
+708;Mme;Lefebvre;Jeanne;Main Street;HOOPER;801;4240884
+709;M.;Morel;Philippe;4th Street;LAMOURE;701;4320183
+710;M.;Thomas;Vincent;South Street;ALVADORE;541;6946411
+711;M.;Michel;Patrick;Maple Street;STURGEON LAKE;218;3567926
+712;Mme;Thomas;Caroline;11th Street;CORBETTSVILLE;607;3763800
+713;Mme;Girard;Christine;Lake Street;MONTEZUMA;316;1573555
+714;M.;Thomas;Joseph;Washington Street;VAIL;520;8054274
+715;Mme;Durand;Emilie;10th Street;BEE;402;7407253
+716;Mme;André;Francoise;North Street;MERIDIAN;405;9413206
+717;M.;Simon;Vincent;8th Street;ESMOND;701;5648766
+718;Mme;David;Laetitia;12th Street;PE ELL;360;7248818
+719;Mme;Martin;Corinne;3rd Street;LINN;304;4325001
+720;M.;Petit;Rene;Lakeview Street;EAST POINT;606;8294902
+721;Mme;Durand;Laetitia;Woodland Street;FOLSOM;916;2703956
+722;Mme;Thomas;Isabelle;Fourth Street;HILLSIDE;201;6639110
+723;M.;Laurent;Thierry;Adams Street;MUIR;717;3285622
+724;M.;André;Stephane;Lakeview Street;CAREFREE;602;8227800
+725;Mme;Durand;Audrey;5th Street;NEMOURS;304;6680113
+726;Mme;David;Corinne;Spring Street;MC DERMOTT;740;0968481
+727;M.;Thomas;Patrick;3rd Street;SEAFORTH;507;4382333
+728;M.;Roux;Pierre;Hickory Street;WEST HAVERSTRAW;914;7537893
+729;Mme;Petit;Caroline;Davis Street;TIMNATH;970;6353263
+730;Mme;Simon;Madeleine;Railroad Street;DAFTER;906;1599662
+731;M.;Bernard;Sebastien;Spruce Street;CRANE HILL;256;1919492
+732;Mme;Martin;Claire;Park Street;GALLATIN;903;5729095
+733;M.;Martin;Jerome;Sunset Street;HARRIS;906;2743390
+734;M.;Michel;Christian;Spruce Street;WINTER;715;4535427
+735;M.;Garcia;Michel;Railroad Street;GUILFORD;207;0502728
+736;Mme;Michel;Laetitia;North Street;MC RAE;501;5060140
+737;M.;Morel;Robert;10th Street;BUTTZVILLE;908;9280150
+738;Mme;Durand;Francoise;10th Street;ROY;801;0423502
+739;Mme;Thomas;Corinne;Elm Street;SELMA;540;5356586
+740;Mme;Roux;Martine;7th Street;CHAPMAN;785;1652520
+741;M.;Morel;Paul;South Street;MENTOR;440;1628755
+742;M.;Simon;Rene;Ash Street;POINT CLEAR;334;9494451
+743;Mme;Moreau;Isabelle;Cedar Street;EDINBURGH;812;6445456
+744;M.;Bertrand;Louis;7th Street;WINSLOW;815;1510876
+745;Mme;André;Corinne;Pine Street;GERALDINE;256;5298681
+746;M.;Mercier;Robert;Sunset Street;MATLOCK;712;3929298
+747;M.;Dubois;Jean-Pierre;11th Street;GREYBULL;307;3744148
+748;M.;Durand;Thomas;Oak Street;KILGORE;402;4953690
+749;M.;Bernard;Thomas;Meadow Street;LIBERTY CENTER;219;3065820
+750;M.;Bertrand;Maurice;10th Street;EMELLE;205;5705601
+751;M.;Roux;Didier;Main Street;WAVERLY;740;4326056
+752;M.;Bertrand;Andre;Main Street;ENCINAL;956;4822514
+753;Mme;Fournier;Renee;6th Street;READSTOWN;608;4396237
+754;Mme;Lefebvre;Annie;Main Street;PRATTSVILLE;870;7496331
+755;M.;Martin;Didier;Main Street;CORYDON;812;3088690
+756;M.;Robert;Jacques;9th Street;COPAN;918;6475593
+757;M.;Martin;Marc;Broadway Street;RICHMOND;815;4198190
+758;M.;David;Francois;College Street;SIDNEY;712;5372179
+759;Mme;Martin;Dominique;13th Street;JACKSON CENTER;724;3246108
+760;M.;Simon;Stephane;First Street;BARTLETT;630;3660696
+761;M.;Petit;Stephane;Spring Street;DEXTER;507;4406531
+762;Mme;Bertrand;Monique;Elm Street;CHURCH HILL;423;0595450
+763;Mme;Richard;Isabelle;Broadway Street;AMA;504;6102942
+764;Mme;Bernard;Christine;Central Street;MEDIA;309;5094353
+765;Mme;Petit;Natalie;Main Street;DANSVILLE;716;3722336
+766;M.;Laurent;Roger;6th Street;MIDDLEBURY;203;2604960
+767;Mme;Fournier;Celine;Hill Street;LENAPAH;918;8507956
+768;Mme;David;Jacqueline;5th Street;ELSAH;618;6948609
+769;Mme;Durand;Renee;Lakeview Street;LINCOLN;781;3350037
+770;M.;Thomas;Sebastien;River Street;SIBLEY;816;1504311
+771;M.;Bernard;Jerome;Green Street;SUMATRA;406;9573014
+772;Mme;Lefebvre;Michele;2nd Street;AVISTON;618;2901662
+773;Mme;Laurent;Jeannine;12th Street;DOVER;330;2135954
+774;Mme;Leroy;Elodie;Sunset Street;SOUTH OZONE PARK;718;7234335
+775;M.;Bertrand;Daniel;Third Street;BREMEN;770;3566546
+776;Mme;Leroy;Celine;10th Street;DELMONT;609;8392277
+777;M.;Bernard;Christian;First Street;PLEASANT HOPE;417;0505470
+778;M.;Fournier;Dominique;Park Street;PILOT MOUND;515;3376077
+779;Mme;Morel;Genevieve;Green Street;PORTLAND;870;0476270
+780;Mme;Thomas;Brigitte;Woodland Street;MINTO;907;1362158
+781;M.;Lefèvre;Laurent;3rd Street;KIRKWOOD;302;1313669
+782;Mme;David;Audrey;Mill Street;ELIZABETHTOWN;502;8038728
+783;M.;Lefèvre;Marc;Second Street;POCAHONTAS;601;3368172
+784;M.;Mercier;Pascal;Smith Street;WATERTOWN;920;7536296
+785;Mme;Fournier;Cecile;Park Street;PRESTON;319;5376817
+786;Mme;Moreau;Patricia;Elm Street;INDIAHOMA;580;1382549
+787;Mme;Richard;Patricia;Cedar Street;ONEIDA;920;9206535
+788;M.;Leroy;Jacques;Church Street;NEW GERMANTOWN;717;6748131
+789;M.;Girard;Andre;Hill Street;WHITE;724;6253028
+790;M.;Simon;Thierry;Walnut Street;HASKELL;940;8805650
+791;Mme;Michel;Madeleine;8th Street;MACOMB;810;6777496
+792;Mme;Martin;Patricia;Mill Street;EAGLE BAY;315;7084488
+793;M.;Morel;Didier;South Street;GLADSTONE;804;3258814
+794;Mme;Laurent;Margeuerite;Forest Street;JAMESPORT;516;8035661
+795;Mme;Bernard;Jeannine;Davis Street;URSINA;814;3267232
+796;M.;Garcia;Bernard;Woodland Street;BLOSSBURG;717;2098185
+797;Mme;Martin;Nicole;Seventh Street;MOORPARK;805;8775852
+798;Mme;Morel;Francoise;8th Street;CEDAR;785;5220651
+799;Mme;Durand;Isabelle;Park Street;DE BEQUE;970;7499957
+800;Mme;Laurent;Bernadette;Smith Street;HURRICANE;304;4580948
+801;Mme;Lefebvre;Corinne;West Street;MC ADAMS;601;1938109
+802;Mme;Lefèvre;Cecile;Adams Street;DOVER;717;5385780
+803;Mme;Simon;Marie;Washington Street;TCHULA;601;3598766
+804;Mme;Bernard;Laurence;Locust Street;YAWKEY;304;3174800
+805;Mme;Garcia;Anne;1st Street;HANNIBAL;740;1545699
+806;M.;Girard;Jean-Pierre;Maple Street;MALMSTROM A F B;406;3375872
+807;M.;Martin;Francois;5th Street;SEABROOK;281;5279191
+808;Mme;Bertrand;Claudine;Lincoln Street;PRIEST RIVER;208;8866420
+809;M.;Morel;Laurent;Washington Street;BIG BAY;906;8444159
+810;Mme;Roux;Caroline;1st Street;POYNOR;903;0544772
+811;M.;Martin;Jean-Pierre;North Street;NORTH BAY;315;7506525
+812;Mme;Simon;Genevieve;Poplar Street;GORDON;912;1230935
+813;M.;Roux;Jean-Pierre;7th Street;MARBLEHEAD;781;2736773
+814;M.;Lefebvre;Christian;Pine Street;THACKER;304;3294141
+815;M.;Michel;Robert;Park Street;WAYCROSS;912;2576497
+816;M.;Durand;Christian;Washington Street;GARRETTSVILLE;330;0914007
+817;M.;André;Julien;Woodland Street;GLENELG;410;8692318
+818;M.;Fournier;Guy;Smith Street;HARTVILLE;307;1345632
+819;Mme;Bernard;Corinne;Johnson Street;PEACH ORCHARD;870;7499269
+820;Mme;Vincent;Cecile;Franklin Street;HEFLIN;256;7724379
+821;Mme;Vincent;Isabelle;Center Street;GAMBRILLS;410;8936544
+822;M.;Garcia;Thierry;Pine Street;PAOLI;405;2546511
+823;M.;Laurent;Paul;Fifth Street;ROUGEMONT;919;7962779
+824;M.;Thomas;Marcel;2nd Street;PINE BANK;724;4536655
+825;M.;Durand;Eric;Ridge Street;RICES LANDING;724;7347394
+826;M.;Moreau;Joseph;Railroad Street;DYER;702;6999188
+827;M.;Durand;Francois;Highland Street;BIG BEND NATIONAL PARK;915;8143602
+828;Mme;Lefebvre;Jeannine;Mill Street;FOUNTAIN;507;0402862
+829;M.;Richard;Dominique;4th Street;WESTPORT;901;3993873
+830;Mme;Petit;Nicole;Fourth Street;WILMOT;603;3512034
+831;Mme;Bernard;Catherine;Forest Street;MACEDONIA;618;6436121
+832;M.;André;Frederic;Cherry Street;CANAAN;812;3660888
+833;M.;Thomas;Pierre;3rd Street;ALEKNAGIK;907;6709785
+834;Mme;Durand;Florence;Washington Street;NEW CUMBERLAND;717;3054458
+835;M.;Durand;Yves;Oak Street;BURLINGTON;606;6653507
+836;M.;Michel;Bernard;North Street;HILLSBORO;937;7703819
+837;Mme;Girard;Martine;Green Street;NORA SPRINGS;515;4754524
+838;Mme;Girard;Monique;3rd Street;FORT RECOVERY;419;3984374
+839;Mme;Durand;Catherine;Maple Street;COOK;218;5262560
+840;Mme;Bernard;Martine;Pine Street;BLANCH;336;4156965
+841;M.;Dubois;Guy;River Street;GOODMAN;417;7122922
+842;M.;Simon;Gerard;Sycamore Street;OCALA;352;7242698
+843;Mme;Bernard;Claire;2nd Street;SURPRISE;518;2943575
+844;M.;Martin;Guy;College Street;SKIATOOK;918;0318238
+845;Mme;Thomas;Elodie;Pine Street;ROYAL;402;4659105
+846;Mme;Martin;Elisabeth;Cherry Street;IOWA CITY;319;2167107
+847;Mme;Laurent;Christelle;Lincoln Street;LAKE CITY;904;7333216
+848;M.;Robert;Francois;Franklin Street;LEQUIRE;918;0746202
+849;Mme;Thomas;Chantal;5th Street;OAKLAND;510;7147402
+850;Mme;Simon;Renee;Church Street;DOVER;813;3984895
+851;Mme;Richard;Francoise;Meadow Street;COULEE CITY;509;0170120
+852;Mme;Laurent;Marie;Lakeview Street;QUINCY;717;7542340
+853;Mme;Moreau;Helene;2nd Street;PLAINVILLE;217;6519499
+854;M.;Garcia;Nicolas;Center Street;FORT WAYNE;219;2946354
+855;Mme;Moreau;Brigitte;Willow Street;MC CLAVE;719;1858386
+856;M.;Bernard;Franck;Lee Street;BRIGHAM CITY;435;2457268
+857;Mme;Robert;Francoise;Locust Street;BRASSTOWN;828;8571336
+858;Mme;Richard;Francoise;River Street;TITUS;334;3499334
+859;M.;Robert;Guillaume;Cedar Street;RIVERSIDE;401;9849782
+860;M.;Bernard;Serge;Chestnut Street;TOMPKINSVILLE;502;2193561
+861;Mme;Vincent;Paulette;Lakeview Street;CURDSVILLE;502;1398084
+862;M.;Girard;Jerome;3rd Street;BANCROFT;515;3162939
+863;Mme;Garcia;Dominique;Madison Street;GAMBRILLS;410;0206836
+864;Mme;Laurent;Francoise;Chestnut Street;NICOLLET;507;1233999
+865;Mme;Moreau;Celine;Franklin Street;JEFFERSON;515;5324820
+866;M.;Mercier;Jerome;Railroad Street;SAINT CHARLES;502;4311937
+867;M.;Lefebvre;Patrick;Cherry Street;CROUSE;704;6207269
+868;M.;Moreau;Marc;2nd Street;HARROLD;605;1920214
+869;Mme;Robert;Marie;Fifth Street;KENSAL;701;0547747
+870;Mme;Lefebvre;Bernadette;Third Street;WILLARD;406;1882707
+871;Mme;Leroy;Audrey;Chestnut Street;GUYS;901;9246352
+872;M.;Richard;Henri;Adams Street;ENDERS;308;5001344
+873;Mme;Morel;Laurence;Cherry Street;ROCKVILLE;401;4031397
+874;M.;Girard;Franck;Walnut Street;HAMPTON;502;0941973
+875;M.;André;Claude;Lincoln Street;REIDSVILLE;912;8432337
+876;Mme;Garcia;Annie;Spruce Street;MAURERTOWN;540;8389536
+877;Mme;Petit;Josette;River Street;YOUNG AMERICA;219;7589489
+878;M.;Bertrand;Thomas;Park Street;DANSVILLE;716;4994940
+879;M.;Bertrand;Christian;Elm Street;CLAY SPRINGS;520;5768156
+880;Mme;Fournier;Brigitte;Lee Street;SPELTER;304;9375337
+881;Mme;Michel;Julie;Pine Street;GRAMBLING;318;8446683
+882;M.;Girard;Jerome;Sycamore Street;ROYAL;217;1815029
+883;M.;Michel;Yves;Park Street;HEYBURN;208;4626979
+884;Mme;Lefèvre;Jeanne;1st Street;ROCHEPORT;573;6747302
+885;Mme;Martin;Jeanne;View Street;TEMPE;602;8420976
+886;M.;Lefèvre;Sebastien;Pine Street;BLOOMFIELD;515;6170117
+887;Mme;Mercier;Andree;Valley Street;MELROSE PARK;708;6557473
+888;M.;Robert;Francois;Chestnut Street;THREE OAKS;616;2757174
+889;Mme;Michel;Christine;1st Street;NORTH GEORGETOWN;330;6029114
+890;M.;David;Marcel;Railroad Street;GRUVER;806;4184424
+891;Mme;Robert;Marcelle;View Street;QUICKSBURG;540;5848883
+892;Mme;Roux;Chantal;Church Street;RAVIA;580;0274294
+893;Mme;David;Renee;Fourth Street;COMBS;501;7804663
+894;M.;Moreau;Serge;Seventh Street;HEPHZIBAH;706;5173314
+895;M.;Michel;Alexandre;Oak Street;WEST SWANZEY;603;9648889
+896;M.;Bernard;Philippe;Pine Street;PINEVILLE;843;5909358
+897;Mme;Petit;Christelle;10th Street;BRIDGEPORT;618;9297640
+898;Mme;Garcia;Martine;West Street;CLAREMONT;605;1133720
+899;Mme;Vincent;Odette;Maple Street;DENISON;903;5224900
+900;M.;Martin;Marc;Poplar Street;MYRTLE BEACH;843;4715533
+901;M.;Garcia;Jean;Park Street;TONEY;256;1373547
+902;Mme;Martin;Bernadette;1st Street;RIVERDALE;517;6373051
+903;M.;Moreau;Thierry;5th Street;PURSGLOVE;304;8148049
+904;Mme;Roux;Jeanne;Park Street;LOYALL;606;5713835
+905;M.;Michel;Daniel;Main Street;WOLF LAKE;618;6327638
+906;M.;Roux;Alexandre;Hickory Street;PAINTER;757;1145426
+907;Mme;Morel;Emilie;Locust Street;ELWELL;517;1959581
+908;M.;Durand;Thomas;Elm Street;DUNLAP;423;8057312
+909;M.;Moreau;Bernard;River Street;ALLEN;606;9099942
+910;M.;David;Maurice;15th Street;SOUDERTON;215;3397472
+911;Mme;Robert;Florence;Madison Street;MANKATO;507;4027693
+912;Mme;Robert;Josette;9th Street;GLEN ECHO;301;7271853
+913;Mme;André;Martine;Third Street;WALLOWA;541;5159228
+914;M.;Dubois;Guillaume;Main Street;BLAWENBURG;609;2037900
+915;Mme;Lefèvre;Julie;Locust Street;WERNERSVILLE;610;2079823
+916;M.;Thomas;Yves;Willow Street;WESTMINSTER;864;1105915
+917;Mme;Martin;Marcelle;2nd Street;MARLBOROUGH;508;5350620
+918;Mme;Simon;Chantal;Sixth Street;INDIAN VALLEY;540;8657754
+919;Mme;Robert;Danielle;Jackson Street;WILMINGTON;978;5145881
+920;M.;Bernard;Jean-Pierre;Third Street;LUCAS;502;7844542
+921;M.;Bernard;Franck;Fourth Street;GRANITE FALLS;828;6292021
+922;Mme;Lefebvre;Marie;Meadow Street;DEER CREEK;580;5411712
+923;M.;Fournier;Alexandre;Adams Street;HOWARD;605;8035732
+924;Mme;Moreau;Josette;11th Street;IGO;530;4976789
+925;Mme;Moreau;Danielle;Cedar Street;PINE BEACH;732;6765585
+926;Mme;Simon;Denise;Jackson Street;MILLTOWN;406;8798436
+927;M.;André;Jean-Pierre;Mill Street;PORT CHESTER;914;7334014
+928;Mme;Vincent;Brigitte;Center Street;TESCOTT;785;6040363
+929;M.;Petit;Jacques;Smith Street;NEWTON UPPER FALLS;617;9725269
+930;M.;Vincent;Robert;Adams Street;DURHAM;580;5488357
+931;M.;Richard;Christophe;1st Street;DURANGO;319;3384649
+932;M.;Fournier;Francois;Taylor Street;MACKSBURG;515;4820707
+933;Mme;Moreau;Claire;Maple Street;PEETZ;970;2897982
+934;Mme;Martin;Elodie;Pine Street;GRANT;616;2192156
+935;M.;Laurent;Daniel;Center Street;LOWLAND;252;0032415
+936;M.;Robert;George;River Street;FALCON;606;1184125
+937;Mme;Leroy;Catherine;Johnson Street;EAST SPENCER;704;4914764
+938;M.;Richard;Philippe;Franklin Street;AVINGER;903;5621131
+939;M.;Martin;Sebastien;11th Street;WYANET;815;8930464
+940;M.;Durand;Jerome;Seventh Street;WAMPSVILLE;315;9341624
+941;M.;Durand;Jean;Forest Street;MARIETTA;601;5196566
+942;M.;Simon;Marcel;Taylor Street;WATTSBURG;814;9525007
+943;Mme;Lefèvre;Claire;College Street;DREXEL HILL;610;5319274
+944;M.;Martin;Daniel;Cherry Street;ABERDEEN;502;6826366
+945;Mme;Lefèvre;Claudine;7th Street;CAMDEN;207;1948338
+946;Mme;Martin;Jeanne;Pine Street;HENDERSON;252;4005968
+947;Mme;Laurent;Christelle;Main Street;TOWNVILLE;864;9603625
+948;M.;Vincent;Dominique;Highland Street;WHITE RIVER JUNCTION;802;4500700
+949;M.;Richard;Christian;Maple Street;GLEN MORGAN;304;2300853
+950;M.;Martin;Henri;West Street;AGUADILLA;787;7476627
+951;Mme;Leroy;Denise;West Street;AROMAS;831;8119546
+952;M.;Leroy;Serge;Central Street;STRAWBERRY PLAINS;423;2195357
+953;Mme;Laurent;Jeannine;Ridge Street;CASTORLAND;315;5364335
+954;M.;Durand;Dominique;5th Street;EAST OTTO;716;9378675
+955;M.;Richard;Roger;Cedar Street;GREENFIELD;937;6243493
+956;Mme;Morel;Josette;Cherry Street;TRIMONT;507;0396961
+957;M.;Vincent;Vincent;Thirteenth Street;COWLESVILLE;716;1161387
+958;Mme;Bernard;Elisabeth;Spring Street;NEWARK;815;1536137
+959;Mme;Girard;Francoise;Walnut Street;OSMOND;402;8045157
+960;Mme;Durand;Julie;2nd Street;HUSTLER;608;6520904
+961;Mme;Bertrand;Laetitia;5th Street;CHIMNEY ROCK;828;0757246
+962;Mme;Martin;Catherine;Hill Street;PALO VERDE;602;1519230
+963;Mme;Lefèvre;Francoise;Park Street;NINOLE;808;4740520
+964;M.;Laurent;Jean;Green Street;SAINT PETERS;314;6117898
+965;M.;Moreau;Franck;1st Street;ORTING;360;1608712
+966;M.;Robert;Robert;Fifth Street;KAUNEONGA LAKE;914;1067693
+967;Mme;Richard;Florence;Railroad Street;MOUNT HOLLY;870;1465810
+968;Mme;Dubois;Elodie;South Street;FORT BRIDGER;307;3970971
+969;M.;David;Jerome;Elm Street;DENVER;660;3954699
+970;Mme;Lefèvre;Cecile;Oak Street;BOLINGBROKE;912;6676084
+971;M.;Martin;Pascal;Smith Street;PAWTUCKET;401;6088341
+972;Mme;David;Christine;Jackson Street;TRELOAR;314;6317939
+973;Mme;Girard;Denise;12th Street;BELTON;816;9197815
+974;Mme;Martin;Elisabeth;Spring Street;VASS;910;9768491
+975;M.;Roux;Christian;East Street;MERIDIAN;315;5136175
+976;M.;Martin;Daniel;14th Street;MELBA;208;8274884
+977;M.;Richard;Nicolas;5th Street;OPELIKA;334;7495573
+978;M.;Moreau;Pascal;Elm Street;PARTRIDGE;606;2247228
+979;M.;Mercier;Francois;Park Street;MELLETTE;605;9002348
+980;M.;Dubois;Jerome;Lake Street;CHANNAHON;815;4668997
+981;M.;Martin;Claude;Tenth Street;OWINGS;301;8652817
+982;Mme;André;Margeuerite;Green Street;CRANBERRY LAKE;315;7089029
+983;Mme;Thomas;Odette;Park Street;EMMITSBURG;301;5460026
+984;M.;Girard;Bernard;Fourth Street;OAK RIDGE;814;7343462
+985;M.;Richard;Alexandre;River Street;GOFFSTOWN;603;3581583
+986;M.;Morel;Jean;Fifth Street;CLEVELAND;816;8374237
+987;M.;Thomas;Christophe;Park Street;CENTER HARBOR;603;0163250
+988;Mme;Robert;Margeuerite;Jefferson Street;SAXAPAHAW;336;7701263
+989;Mme;Martin;Margeuerite;West Street;HENDERSON;252;6502896
+990;Mme;Martin;Emilie;11th Street;ATLAS;810;9562346
+991;M.;Dubois;Patrick;Hickory Street;PARIS;901;9378351
+992;M.;Durand;Gerard;Center Street;ESSEX JUNCTION;802;1300952
+993;M.;Durand;Christophe;Highland Street;BARBERVILLE;904;9976305
+994;Mme;Durand;Isabelle;5th Street;WHITE PINE;906;2146968
+995;Mme;Michel;Corinne;2nd Street;DUNCANVILLE;972;5547830
+996;Mme;Robert;Christine;Eighth Street;YOUNGSVILLE;914;2986447
+997;M.;Robert;Frederic;Hickory Street;PINEVIEW;912;4042285
+998;M.;Richard;Marcel;Washington Street;WILSONVILLE;308;2254186
+999;M.;Durand;Philippe;Pine Street;WASHINGTON;812;5320501
+1000;M.;Moreau;Philippe;12th Street;PUKWANA;605;3400320

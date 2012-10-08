@@ -36,7 +36,7 @@ public class DefaultMessageListener implements MessageListener {
 					String messageContent		=	((TextMessage)message).getText();
 					Record record				=	new Record(messageContent, 
 																message.getStringProperty("JMSXGroupID"),
-																Calendar.getInstance().getTime());
+																Calendar.getInstance().getTime(), Thread.currentThread().getName());
 					this.records.add(record);
 					getRecordManager().add(record);
 				}
